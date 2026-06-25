@@ -19,6 +19,7 @@ L'estensione adotta un approccio **Privacy-First** basato su una comunicazione a
 1. **Content Script:** Monitora l'input in tempo reale (`textarea` e `div[contenteditable]`) e inietta un iframe invisibile che funge da "Motore di Inferenza".
 2. **Motore di Inferenza (Transformers.js):** L'iframe carica il modello `Xenova/bert-base-NER` direttamente nel browser dell'utente utilizzando `Transformers.js`.
 3. **Comunicazione Sicura:** L'estensione e il Motore comunicano tramite l'API `window.postMessage`, garantendo che nessun dato sensibile venga mai inviato a server esterni per l'analisi.
+4. **Privacy First:** I dati vengno elaborati totalmento in locale grazie all'uso di Trasformers.js che caricano il modello NER nel browser grazie alla pagina web index.html dispobibile tramite Github Pages sulla repo https://github.com/Grano14/AI-Firewall-Js-client.git.
 
 ## 🚀 Funzionalità
 - **Riconoscimento Entità (NER):** Identificazione automatica di persone, luoghi e organizzazioni.
@@ -32,10 +33,10 @@ L'estensione adotta un approccio **Privacy-First** basato su una comunicazione a
 - **Comunicazione:** Cross-Origin `postMessage` tra estensione e GitHub Pages.
 
 ## 📦 Installazione
-1. Scarica o clona questo repository.
+1. Apri Chrome/Edge/Firefox.
 2. Vai su `chrome://extensions/` nel tuo browser.
-3. Attiva la **"Modalità sviluppatore"** in alto a destra.
-4. Clicca su **"Carica estensione non pacchettizzata"** e seleziona la cartella del progetto.
+3. Cerca 'nome'.
+4. Clicca su installa estensione.
 
 ## 📝 Utilizzo
 Una volta installata, l'estensione rileva automaticamente i chatbot compatibili (ChatGPT, Gemini, Claude):
