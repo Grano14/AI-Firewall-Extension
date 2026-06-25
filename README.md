@@ -1,5 +1,12 @@
 <div align="center">
   <img src="Extension/icon.png" alt="AI Firewall Logo" width="200" />
+
+  <p>
+    <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/Transformers.js-000000?style=flat" alt="Transformers.js" />
+  </p>
+  
 </div>
 
 # AI Firewall Extension
