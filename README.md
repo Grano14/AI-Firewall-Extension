@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="Extension/icon.png" alt="AI Firewall Logo" width="200" />
+</div>
+
 # AI Firewall Extension
 
 [Protezione dall'esposizione di dati sensibili nei prompt dei chat bot.]
@@ -5,7 +9,7 @@
 ## 🚀 Funzionalità
 - **Feature 1**: Controllo automatico e continuo del testo inserito in un prompt di chat bot ai.
 - **Feature 2**: Anonimizzazione del prompt tramite Rex-Ex e modello NER per riconoscimento di persone e luoghi.
-- **Privacy First**: I dati vengno elaborati totalmento in locale grazie all'uso di Trasformers.js che caricano il modello NER nel browser grazie alla pagina web index.html dispobibile tramite Github Pages sulla repo .
+- **Privacy First**: I dati vengno elaborati totalmento in locale grazie all'uso di Trasformers.js che caricano il modello NER nel browser grazie alla pagina web index.html dispobibile tramite Github Pages sulla repo https://github.com/Grano14/AI-Firewall-Js-client.git.
 
 ## 🛠 Tecnologie utilizzate
 - [JS]
